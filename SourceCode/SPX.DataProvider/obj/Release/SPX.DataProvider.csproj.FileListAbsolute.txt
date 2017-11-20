@@ -1,0 +1,9 @@
+C:\Users\harsha.ravi\Documents\Visual Studio 2013\Projects\SPX.WebAPI\SPX.DataProvider\bin\Release\SPX.DataProvider.dll.config
+C:\Users\harsha.ravi\Documents\Visual Studio 2013\Projects\SPX.WebAPI\SPX.DataProvider\bin\Release\SPX.DataProvider.dll
+C:\Users\harsha.ravi\Documents\Visual Studio 2013\Projects\SPX.WebAPI\SPX.DataProvider\bin\Release\SPX.DataProvider.pdb
+C:\Users\harsha.ravi\Documents\Visual Studio 2013\Projects\SPX.WebAPI\SPX.DataProvider\bin\Release\EntityFramework.dll
+C:\Users\harsha.ravi\Documents\Visual Studio 2013\Projects\SPX.WebAPI\SPX.DataProvider\bin\Release\EntityFramework.SqlServer.dll
+C:\Users\harsha.ravi\Documents\Visual Studio 2013\Projects\SPX.WebAPI\SPX.DataProvider\bin\Release\EntityFramework.xml
+C:\Users\harsha.ravi\Documents\Visual Studio 2013\Projects\SPX.WebAPI\SPX.DataProvider\bin\Release\EntityFramework.SqlServer.xml
+C:\Users\harsha.ravi\Documents\Visual Studio 2013\Projects\SPX.WebAPI\SPX.DataProvider\obj\Release\SPX.DataProvider.dll
+C:\Users\harsha.ravi\Documents\Visual Studio 2013\Projects\SPX.WebAPI\SPX.DataProvider\obj\Release\SPX.DataProvider.pdb

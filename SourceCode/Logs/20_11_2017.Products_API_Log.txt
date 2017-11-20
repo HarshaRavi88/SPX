@@ -1,0 +1,447 @@
+
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=--=-=-=-=-=-=-= 
+ 2017-11-20 00:40:08,152 [11] INFO  SPX.WebAPI.LogRequestAndResponseHandler 
+
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=--=-=-=-=-=-=-= 
+ 2017-11-20 00:40:21,932 [11] INFO  SPX.WebAPI.LogRequestAndResponseHandler [{"Rating":"4","Comments":"8327 2837 4732 1234","User":"12 34 56"},{"Rating":"12 34 56","Comments":"8327 2837 4732 1234","User":"12 34 56"},{"Rating":"3","Comments":"8327 2837 4732 1234","User":"12 34 56"}]
+
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=--=-=-=-=-=-=-= 
+ 2017-11-20 00:41:26,082 [7] INFO  SPX.WebAPI.LogRequestAndResponseHandler 
+
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=--=-=-=-=-=-=-= 
+ 2017-11-20 00:41:32,879 [7] INFO  SPX.WebAPI.LogRequestAndResponseHandler {"Status":"ACCESS_DENIED","Response":"UNAUTHORIZED ACCESS TO THE API"}
+
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=--=-=-=-=-=-=-= 
+ 2017-11-20 00:42:30,882 [16] INFO  SPX.WebAPI.LogRequestAndResponseHandler {
+		"Rating": "4",
+		"Comments": "8327 2837 4732 1234T",
+		"User": "12 34 56"
+	}
+
+
+
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=--=-=-=-=-=-=-= 
+ 2017-11-20 00:42:34,228 [16] INFO  SPX.WebAPI.LogRequestAndResponseHandler {"Status":"NOT FOUND","Response":"NO REVIEW TO UPADATE"}
+
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=--=-=-=-=-=-=-= 
+ 2017-11-20 00:42:45,071 [14] INFO  SPX.WebAPI.LogRequestAndResponseHandler {
+		"Rating": "1",
+		"Comments": "8327 2837 4732 1234T",
+		"User": "12 34 56"
+	}
+
+
+
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=--=-=-=-=-=-=-= 
+ 2017-11-20 00:42:48,773 [14] INFO  SPX.WebAPI.LogRequestAndResponseHandler {"Status":"NOT FOUND","Response":"NO REVIEW TO UPADATE"}
+
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=--=-=-=-=-=-=-= 
+ 2017-11-20 00:44:00,162 [21] INFO  SPX.WebAPI.LogRequestAndResponseHandler {
+		"Rating": "1",
+		"Comments": "8327 2837 4732 1234T",
+		"User": "12 34 56"
+	}
+
+
+
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=--=-=-=-=-=-=-= 
+ 2017-11-20 00:44:03,001 [21] INFO  SPX.WebAPI.LogRequestAndResponseHandler {"Status":"SUCCESS","Response":"UPADATE REQUEST IS SUCCESS"}
+
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=--=-=-=-=-=-=-= 
+ 2017-11-20 00:45:24,564 [26] INFO  SPX.WebAPI.LogRequestAndResponseHandler [{
+		"ProductId": 1,
+		"Title": "Titel1",
+		"ShortDescription": "10",
+		"Brand": "APV",
+		"Reviews": [{
+				"Rating": "7",
+				"Comments": "8327 2837 4732 1234",
+				"User": "12 34 56"
+			},
+			{
+				"Rating": "2",
+				"Comments": "8327 2837 4732 1234",
+				"User": "12 34 56"
+			}
+		]
+
+	},
+	{
+		"ProductId": 2,
+		"Title": "Titel1B",
+		"ShortDescription": "10B",
+		"Brand": "APV",
+		"Reviews": [{
+				"Rating": "2",
+				"Comments": "8327 2837 4732 1234",
+				"User": "12 34 56"
+			},
+			{
+				"Rating": "3",
+				"Comments": "8327 2837 4732 1234",
+				"User": "12 34 56"
+			}
+		]
+
+	},
+
+]
+
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=--=-=-=-=-=-=-= 
+ 2017-11-20 00:45:34,744 [26] INFO  SPX.WebAPI.LogRequestAndResponseHandler {"Status":"ERROR","Response":"RATING VALUE SHOULD BE BETWEEN 1 AND 5 IN REQUEST PAYLOAD."}
+
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=--=-=-=-=-=-=-= 
+ 2017-11-20 00:52:36,593 [8] INFO  SPX.WebAPI.LogRequestAndResponseHandler http://localhost:54028/api/SPX/Get/products/Til/reviews
+
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=--=-=-=-=-=-=-= 
+ 2017-11-20 00:52:38,195 [8] INFO  SPX.WebAPI.LogRequestAndResponseHandler 
+
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=--=-=-=-=-=-=-= 
+ 2017-11-20 00:52:57,985 [8] INFO  SPX.WebAPI.LogRequestAndResponseHandler {"Status":"ERROR","Response":"REQUEST FAILED"}
+
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=--=-=-=-=-=-=-= 
+ 2017-11-20 00:56:41,653 [7] INFO  SPX.WebAPI.LogRequestAndResponseHandler http://localhost:54028/api/SPX/Get/products/Til/reviews
+
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=--=-=-=-=-=-=-= 
+ 2017-11-20 00:56:41,691 [7] INFO  SPX.WebAPI.LogRequestAndResponseHandler 
+
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=--=-=-=-=-=-=-= 
+ 2017-11-20 00:56:49,127 [7] ERROR SPX.WebAPI.Controllers.SpxController System.ArgumentNullException: Value cannot be null.
+Parameter name: source
+   at System.Linq.Enumerable.Any[TSource](IEnumerable`1 source)
+   at SPX.WebAPI.Controllers.SpxController.GetReviews(String productTitle) in c:\Users\harsha.ravi\Documents\Visual Studio 2013\Projects\SPX.WebAPI\SPX.WebAPI\Controllers\SPXController.cs:line 190
+
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=--=-=-=-=-=-=-= 
+ 2017-11-20 00:56:49,184 [7] INFO  SPX.WebAPI.LogRequestAndResponseHandler {"Status":"ERROR","Response":"REQUEST FAILED"}
+
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=--=-=-=-=-=-=-= 
+ 2017-11-20 07:49:40,057 [7] INFO  SPX.WebAPI.LogRequestAndResponseHandler http://localhost:54028/api/SPX
+
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=--=-=-=-=-=-=-= 
+ 2017-11-20 07:49:40,169 [7] INFO  SPX.WebAPI.LogRequestAndResponseHandler 
+
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=--=-=-=-=-=-=-= 
+ 2017-11-20 07:50:12,569 [7] INFO  SPX.WebAPI.LogRequestAndResponseHandler [{"ProductId":1,"Title":"Titel1","ShortDescription":"10","Brand":"40","Reviews":[{"Rating":"12 34 56","Comments":"8327 2837 4732 1234T","User":"12 34 56"}]},{"ProductId":2,"Title":"Titel1B","ShortDescription":"10B","Brand":"40B","Reviews":[{"Rating":"12 34 56","Comments":"8327 2837 4732 1234","User":"12 34 56"},{"Rating":"3","Comments":"8327 2837 4732 1234","User":"12 34 56"}]}]
+
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=--=-=-=-=-=-=-= 
+ 2017-11-20 11:16:04,279 [8] INFO  SPX.WebAPI.LogRequestAndResponseHandler http://localhost:54028/api/SPX
+
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=--=-=-=-=-=-=-= 
+ 2017-11-20 11:16:04,317 [8] INFO  SPX.WebAPI.LogRequestAndResponseHandler 
+
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=--=-=-=-=-=-=-= 
+ 2017-11-20 11:16:10,053 [8] INFO  SPX.WebAPI.LogRequestAndResponseHandler [{"ProductId":1,"Title":"Titel1","ShortDescription":"10","Brand":"40","Reviews":[{"Rating":"HarshaRavi","Comments":"Good one!","User":"HarshaRavi"}]},{"ProductId":2,"Title":"Titel1B","ShortDescription":"10B","Brand":"40B","Reviews":[{"Rating":"12 34 56","Comments":"8327 2837 4732 1234","User":"12 34 56"},{"Rating":"3","Comments":"8327 2837 4732 1234","User":"12 34 56"}]},{"ProductId":3,"Title":"New Title","ShortDescription":"Good Product","Brand":"APV","Reviews":[{"Rating":"4","Comments":"Nice one!","User":"HarshaRavi"},{"Rating":"4","Comments":"Nice one!","User":"HarshaRavi"}]},{"ProductId":4,"Title":"New Title","ShortDescription":"Good Product","Brand":"APV","Reviews":[{"Rating":"4","Comments":"Nice one!","User":"HarshaRavi"},{"Rating":"4","Comments":"Nice one!","User":"HarshaRavi"}]},{"ProductId":5,"Title":"New Title","ShortDescription":"Good Product","Brand":"APV","Reviews":[{"Rating":"4","Comments":"Nice one!","User":"HarshaRavi"},{"Rating":"4","Comments":"Nice one!","User":"HarshaRavi"}]}]
+
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=--=-=-=-=-=-=-= 
+ 2017-11-20 11:28:13,928 [39] INFO  SPX.WebAPI.LogRequestAndResponseHandler http://localhost:54028/api/spx/InsertProducts
+
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=--=-=-=-=-=-=-= 
+ 2017-11-20 11:28:13,929 [39] INFO  SPX.WebAPI.LogRequestAndResponseHandler [{
+		"ProductId": 1,
+		"Title": "Titel1",
+		"ShortDescription": "10",
+		"Brand": "APV",
+		"Reviews": [{
+				"Rating": "3",
+				"Comments": "8327 2837 4732 1234",
+				"User": "12 34 56"
+			},
+			{
+				"Rating": "2",
+				"Comments": "8327 2837 4732 1234",
+				"User": "12 34 56"
+			}
+		]
+
+	},
+	{
+		"ProductId": 2,
+		"Title": "Titel1B",
+		"ShortDescription": "10B",
+		"Brand": "APV",
+		"Reviews": [{
+				"Rating": "2",
+				"Comments": "8327 2837 4732 1234",
+				"User": "12 34 56"
+			},
+			{
+				"Rating": "3",
+				"Comments": "8327 2837 4732 1234",
+				"User": "12 34 56"
+			}
+		]
+
+	},
+
+]
+
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=--=-=-=-=-=-=-= 
+ 2017-11-20 11:28:14,527 [39] INFO  SPX.WebAPI.LogRequestAndResponseHandler {"Status":"SUCCESS","Response":"REQUEST PROCESS SUCCESSFULLY AND PRODUCT INSERTED"}
+
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=--=-=-=-=-=-=-= 
+ 2017-11-20 11:30:00,494 [44] INFO  SPX.WebAPI.LogRequestAndResponseHandler http://localhost:54028/api/spx/InsertProducts
+
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=--=-=-=-=-=-=-= 
+ 2017-11-20 11:30:00,495 [44] INFO  SPX.WebAPI.LogRequestAndResponseHandler [
+		"ProductId": 1,
+		"Title": "Titel1",
+		"ShortDescription": "10",
+		"Brand": "APV",
+		"Reviews": [{
+				"Rating": "3",
+				"Comments": "8327 2837 4732 1234",
+				"User": "12 34 56"
+			},
+			{
+				"Rating": "2",
+				"Comments": "8327 2837 4732 1234",
+				"User": "12 34 56"
+			}
+		]
+
+	},
+	{
+		"ProductId": 2,
+		"Title": "Titel1B",
+		"ShortDescription": "10B",
+		"Brand": "APV",
+		"Reviews": [{
+				"Rating": "2",
+				"Comments": "8327 2837 4732 1234",
+				"User": "12 34 56"
+			},
+			{
+				"Rating": "3",
+				"Comments": "8327 2837 4732 1234",
+				"User": "12 34 56"
+			}
+		]
+
+	},
+
+]
+
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=--=-=-=-=-=-=-= 
+ 2017-11-20 11:30:01,217 [44] INFO  SPX.WebAPI.LogRequestAndResponseHandler {"Status":"ERROR","Response":"REQUEST CONTENT IS NULL, JSON PAYLOAD IS MOST LIKELY IN BAD FORMAT."}
+
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=--=-=-=-=-=-=-= 
+ 2017-11-20 11:30:54,542 [47] INFO  SPX.WebAPI.LogRequestAndResponseHandler http://localhost:54028/api/spx/InsertProducts
+
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=--=-=-=-=-=-=-= 
+ 2017-11-20 11:30:54,543 [47] INFO  SPX.WebAPI.LogRequestAndResponseHandler [{
+		"ProductId": 1,
+		"Title": "Titel1",
+		"ShortDescription": "10",
+		"Brand": "a",
+		"Reviews": [{
+				"Rating": "3",
+				"Comments": "8327 2837 4732 1234",
+				"User": "12 34 56"
+			},
+			{
+				"Rating": "2",
+				"Comments": "8327 2837 4732 1234",
+				"User": "12 34 56"
+			}
+		]
+
+	},
+	{
+		"ProductId": 2,
+		"Title": "Titel1B",
+		"ShortDescription": "10B",
+		"Brand": "APV",
+		"Reviews": [{
+				"Rating": "2",
+				"Comments": "8327 2837 4732 1234",
+				"User": "12 34 56"
+			},
+			{
+				"Rating": "3",
+				"Comments": "8327 2837 4732 1234",
+				"User": "12 34 56"
+			}
+		]
+
+	},
+
+]
+
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=--=-=-=-=-=-=-= 
+ 2017-11-20 11:30:54,546 [47] INFO  SPX.WebAPI.LogRequestAndResponseHandler {"Status":"ERROR","Response":"BRAND TYPE IS INVALID IN REQUEST PAYLOAD."}
+
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=--=-=-=-=-=-=-= 
+ 2017-11-20 11:31:17,297 [42] INFO  SPX.WebAPI.LogRequestAndResponseHandler http://localhost:54028/api/spx/InsertProducts
+
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=--=-=-=-=-=-=-= 
+ 2017-11-20 11:31:17,298 [42] INFO  SPX.WebAPI.LogRequestAndResponseHandler [{
+		"ProductId": 1,
+		"Title": "Titel1",
+		"ShortDescription": "10",
+		"Brand": "APV",
+		"Reviews": [{
+				"Rating": "3",
+				"Comments": "8327 2837 4732 1234",
+				"User": "12 34 56"
+			},
+			{
+				"Rating": "7",
+				"Comments": "8327 2837 4732 1234",
+				"User": "12 34 56"
+			}
+		]
+
+	},
+	{
+		"ProductId": 2,
+		"Title": "Titel1B",
+		"ShortDescription": "10B",
+		"Brand": "APV",
+		"Reviews": [{
+				"Rating": "2",
+				"Comments": "8327 2837 4732 1234",
+				"User": "12 34 56"
+			},
+			{
+				"Rating": "3",
+				"Comments": "8327 2837 4732 1234",
+				"User": "12 34 56"
+			}
+		]
+
+	},
+
+]
+
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=--=-=-=-=-=-=-= 
+ 2017-11-20 11:31:17,301 [42] INFO  SPX.WebAPI.LogRequestAndResponseHandler {"Status":"ERROR","Response":"RATING VALUE SHOULD BE BETWEEN 1 AND 5 IN REQUEST PAYLOAD."}
+
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=--=-=-=-=-=-=-= 
+ 2017-11-20 11:31:40,814 [43] INFO  SPX.WebAPI.LogRequestAndResponseHandler http://localhost:54028/api/spx/InsertProducts
+
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=--=-=-=-=-=-=-= 
+ 2017-11-20 11:31:40,816 [43] INFO  SPX.WebAPI.LogRequestAndResponseHandler [{
+		"ProductId": 1,
+		"Title": "Titel1",
+		"ShortDescription": "10",
+		"Brand": "APV",
+		"Reviews": [{
+				"Rating": "3",
+				"Comments": "8327 2837 4732 1234",
+				"User": "12 34 56"
+			},
+			{
+				"Rating": "5",
+				"Comments": "8327 2837 4732 1234",
+				"User": "12 34 56"
+			}
+		]
+
+	},
+	{
+		"ProductId": 2,
+		"Title": "Titel1B",
+		"ShortDescription": "10B",
+		"Brand": "APV",
+		"Reviews": [{
+				"Rating": "2",
+				"Comments": "8327 2837 4732 1234",
+				"User": "12 34 56"
+			},
+			{
+				"Rating": "3",
+				"Comments": "8327 2837 4732 1234",
+				"User": "12 34 56"
+			}
+		]
+
+	},
+
+]
+
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=--=-=-=-=-=-=-= 
+ 2017-11-20 11:31:40,820 [43] INFO  SPX.WebAPI.LogRequestAndResponseHandler {"Status":"ERROR","Response":"RATING VALUE SHOULD BE BETWEEN 1 AND 5 IN REQUEST PAYLOAD."}
+
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=--=-=-=-=-=-=-= 
+ 2017-11-20 11:36:47,411 [9] INFO  SPX.WebAPI.LogRequestAndResponseHandler http://localhost:54028/api/SPX/6
+
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=--=-=-=-=-=-=-= 
+ 2017-11-20 11:36:47,429 [9] INFO  SPX.WebAPI.LogRequestAndResponseHandler {
+		"Rating": "1",
+		"Comments": "8327 2837 4732 1234T",
+		"User": "12 34 56"
+	}
+
+
+
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=--=-=-=-=-=-=-= 
+ 2017-11-20 11:36:52,005 [9] INFO  SPX.WebAPI.LogRequestAndResponseHandler {"Status":"SUCCESS","Response":"UPADATE REQUEST IS SUCCESS"}
+
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=--=-=-=-=-=-=-= 
+ 2017-11-20 11:38:06,585 [13] INFO  SPX.WebAPI.LogRequestAndResponseHandler http://localhost:54028/api/SPX/212
+
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=--=-=-=-=-=-=-= 
+ 2017-11-20 11:38:06,586 [13] INFO  SPX.WebAPI.LogRequestAndResponseHandler {
+		"Rating": "4",
+		"Comments": "8327 2837 4732 1234",
+		"User": "12 34 56"
+	}
+
+
+
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=--=-=-=-=-=-=-= 
+ 2017-11-20 11:38:06,598 [13] INFO  SPX.WebAPI.LogRequestAndResponseHandler {"Status":"ACCESS_DENIED","Response":"UNAUTHORIZED ACCESS TO THE API"}
+
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=--=-=-=-=-=-=-= 
+ 2017-11-20 11:38:21,986 [14] INFO  SPX.WebAPI.LogRequestAndResponseHandler http://localhost:54028/api/SPX/212
+
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=--=-=-=-=-=-=-= 
+ 2017-11-20 11:38:21,987 [14] INFO  SPX.WebAPI.LogRequestAndResponseHandler {
+		"Rating": "1",
+		"Comments": "8327 2837 4732 1234T",
+		"User": "12 34 56"
+	}
+
+
+
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=--=-=-=-=-=-=-= 
+ 2017-11-20 11:38:21,999 [14] INFO  SPX.WebAPI.LogRequestAndResponseHandler {"Status":"NOT FOUND","Response":"NO REVIEW TO UPADATE"}
+
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=--=-=-=-=-=-=-= 
+ 2017-11-20 11:45:10,611 [35] INFO  SPX.WebAPI.LogRequestAndResponseHandler http://localhost:54028/api/SPX/2
+
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=--=-=-=-=-=-=-= 
+ 2017-11-20 11:45:10,612 [35] INFO  SPX.WebAPI.LogRequestAndResponseHandler {
+		"Rating": "4",
+		"Comments": "8327 2837 4732 1234",
+		"User": "12 34 56"
+	}
+
+
+
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=--=-=-=-=-=-=-= 
+ 2017-11-20 11:45:10,771 [35] INFO  SPX.WebAPI.LogRequestAndResponseHandler {"Status":"NOT FOUND","Response":"REVIEW NOT FOUND TO DELETE"}
+
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=--=-=-=-=-=-=-= 
+ 2017-11-20 11:45:46,897 [32] INFO  SPX.WebAPI.LogRequestAndResponseHandler http://localhost:54028/api/SPX/5
+
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=--=-=-=-=-=-=-= 
+ 2017-11-20 11:45:46,899 [32] INFO  SPX.WebAPI.LogRequestAndResponseHandler {
+		"Rating": "4",
+		"Comments": "8327 2837 4732 1234",
+		"User": "12 34 56"
+	}
+
+
+
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=--=-=-=-=-=-=-= 
+ 2017-11-20 11:45:47,013 [32] INFO  SPX.WebAPI.LogRequestAndResponseHandler {"Status":"SUCCESS","Response":"REVIEW DELETED SUCCESSFULLY"}
+
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=--=-=-=-=-=-=-= 
+ 2017-11-20 11:48:08,840 [44] INFO  SPX.WebAPI.LogRequestAndResponseHandler http://localhost:54028/api/SPX/Get/products/T/reviews
+
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=--=-=-=-=-=-=-= 
+ 2017-11-20 11:48:08,841 [44] INFO  SPX.WebAPI.LogRequestAndResponseHandler 
+
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=--=-=-=-=-=-=-= 
+ 2017-11-20 11:48:08,904 [44] INFO  SPX.WebAPI.LogRequestAndResponseHandler [{"Rating":"HarshaRavi","Comments":"Good one!","User":"HarshaRavi"},{"Rating":"12 34 56","Comments":"8327 2837 4732 1234","User":"12 34 56"},{"Rating":"3","Comments":"8327 2837 4732 1234","User":"12 34 56"},{"Rating":"12 34 56","Comments":"8327 2837 4732 1234T","User":"12 34 56"},{"Rating":"4","Comments":"Nice one!","User":"HarshaRavi"},{"Rating":"4","Comments":"Nice one!","User":"HarshaRavi"},{"Rating":"4","Comments":"Nice one!","User":"HarshaRavi"},{"Rating":"4","Comments":"Nice one!","User":"HarshaRavi"},{"Rating":"3","Comments":"8327 2837 4732 1234","User":"12 34 56"},{"Rating":"2","Comments":"8327 2837 4732 1234","User":"12 34 56"}]

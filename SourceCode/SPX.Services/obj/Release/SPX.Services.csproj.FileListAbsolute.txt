@@ -1,0 +1,9 @@
+C:\Users\harsha.ravi\Documents\Visual Studio 2013\Projects\SPX.WebAPI\SPX.Services\bin\Release\SPX.Services.dll
+C:\Users\harsha.ravi\Documents\Visual Studio 2013\Projects\SPX.WebAPI\SPX.Services\bin\Release\SPX.Services.pdb
+C:\Users\harsha.ravi\Documents\Visual Studio 2013\Projects\SPX.WebAPI\SPX.Services\bin\Release\SPX.DataProvider.dll
+C:\Users\harsha.ravi\Documents\Visual Studio 2013\Projects\SPX.WebAPI\SPX.Services\bin\Release\EntityFramework.dll
+C:\Users\harsha.ravi\Documents\Visual Studio 2013\Projects\SPX.WebAPI\SPX.Services\bin\Release\SPX.DataProvider.pdb
+C:\Users\harsha.ravi\Documents\Visual Studio 2013\Projects\SPX.WebAPI\SPX.Services\bin\Release\EntityFramework.xml
+C:\Users\harsha.ravi\Documents\Visual Studio 2013\Projects\SPX.WebAPI\SPX.Services\obj\Release\SPX.Services.csprojResolveAssemblyReference.cache
+C:\Users\harsha.ravi\Documents\Visual Studio 2013\Projects\SPX.WebAPI\SPX.Services\obj\Release\SPX.Services.dll
+C:\Users\harsha.ravi\Documents\Visual Studio 2013\Projects\SPX.WebAPI\SPX.Services\obj\Release\SPX.Services.pdb

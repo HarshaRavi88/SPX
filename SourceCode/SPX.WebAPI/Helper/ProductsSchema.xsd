@@ -1,0 +1,80 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema targetNamespace="http://spxflow.com/products/XMLSchema"
+    elementFormDefault="qualified"
+    xmlns="http://spxflow.com/products/XMLSchema"
+    xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+  <xs:element name="id" type="xs:long"/>
+  <xs:element name="title" type="xs:string"/>
+  <xs:element name="shortDescription" type="xs:string"/>
+  <xs:element name="brand" type="brandName"/>
+  <xs:element name="user" type="xs:string"/>
+  
+  <xs:attribute name="datePublished" type="xs:dateTime" />
+
+  <xs:element name="rating">
+    <xs:simpleType>
+      <xs:restriction base="xs:integer">
+        <xs:minInclusive value="1"/>
+        <xs:maxInclusive value="5"/>
+      </xs:restriction>
+    </xs:simpleType>
+  </xs:element>  
+  
+  <xs:simpleType name="brandName">
+      <xs:restriction base="xs:string">
+        <xs:enumeration value="APV"/>
+        <xs:enumeration value="Airpel"/>
+        <xs:enumeration value="PowerTeam"/>
+      </xs:restriction>    
+  </xs:simpleType>
+
+  <xs:element name="comment">
+    <xs:simpleType>
+      <xs:restriction base="xs:string">
+        <xs:maxLength value="256"/>
+      </xs:restriction>
+    </xs:simpleType>
+  </xs:element>
+
+  <xs:element name ="review">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="rating"></xs:element>
+        <xs:element ref="comment"></xs:element>
+        <xs:element ref="user"></xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+
+
+  <xs:element name ="reviews">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="review" maxOccurs="unbounded"></xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  
+  <xs:element name ="product">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="id"/>
+        <xs:element ref="title"/>
+        <xs:element ref="shortDescription"/>
+        <xs:element ref="brand"/>
+        <xs:element ref="reviews"/>
+      </xs:sequence>
+      <xs:attribute ref="datePublished"/>
+    </xs:complexType>
+  </xs:element>
+
+  <xs:element name ="products">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="product" maxOccurs="unbounded"></xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  
+</xs:schema>

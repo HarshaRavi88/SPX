@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<products xmlns="http://spxflow.com/products/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://spxflow.com/products/XMLSchema ProductsSchema.xsd">
+  <product>
+    <id>1</id>
+    <title>APV Gaulin Mono-Block</title>
+    <shortDescription>An integrated design of cylinders (3 or 5), pump valves, plunger lubrication and inlet/outlet in one block.</shortDescription>
+    <brand>APV</brand>
+    <reviews>
+      <review>
+        <rating>5</rating>
+        <comment>This is a great product.</comment>
+        <user>John D.</user>
+      </review>
+      <review>
+        <rating>1</rating>
+        <comment>Had some issues with this product</comment>
+        <user>Anonymous</user>
+      </review>
+    </reviews>
+  </product>
+  <product>
+    <id>2</id>
+    <title>Gasketed Plate Heat Exchanger - Industrial</title>
+    <shortDescription>Gasketed Plate Heat Exchanger for Industrial Applications.</shortDescription>
+    <brand>APV</brand>
+    <reviews>
+      <review>
+        <rating>3</rating>
+        <comment>This product review can't exceed 256 characters. If I put more than that, my review will be truncated!</comment>
+        <user>John D.</user>
+      </review>
+    </reviews>
+  </product>
+</products>
